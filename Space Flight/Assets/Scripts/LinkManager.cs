@@ -183,7 +183,7 @@ public class LinkManager : MonoBehaviour
             }
             else
             {
-                print("ADVERTISMENT IS NOT READY!!!");
+                //print("ADVERTISMENT IS NOT READY!!!");
                 return false;
             }
         }

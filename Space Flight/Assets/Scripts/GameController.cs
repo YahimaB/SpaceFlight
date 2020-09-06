@@ -41,18 +41,16 @@ public class GameController : MonoBehaviour
     [Header("Link Manager")]
     public LinkManager linkManager;
 
-    bool gameOver;
-    int score;
-    int gems;
+    private bool gameOver = false;
+    private int score = 0;
+    private int gems = 0;
+    private int gamesPlayed = 0;
 
-    int gamesPlayed = 0;
+    private SaveLoadData saveLoadData = new SaveLoadData();
+    private PlayerController player = default;
 
-    SaveLoadData saveLoadData = new SaveLoadData();
-
-    PlayerController player;
-
-    Coroutine spawnWaves;
-    Coroutine spawnPickUps;
+    private Coroutine spawnWaves;
+    private Coroutine spawnPickUps;
 
 	void Start()
     {
@@ -71,7 +69,7 @@ public class GameController : MonoBehaviour
 	private void Update()
 	{
         if(gameOver)
-        clearJunk();
+        ClearJunk();
 	}
 
 	public void StartGame()
@@ -139,7 +137,7 @@ public class GameController : MonoBehaviour
         StartGame();
     }
 
-    public void clearJunk(){
+    public void ClearJunk(){
         //Убрать мусор (астероиды, пикапы) с карты
         string[] junkTags = { "Asteroid", "Gem", "Shield" };
         foreach (string junkTag in junkTags)
