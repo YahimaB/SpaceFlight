@@ -1,40 +1,98 @@
 fileFormatVersion: 2
 guid: 1713f20eedfd048a3a55b64cdb1966cd
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: pCube1
-    100002: pCylinder1
-    100004: pSphere1
-    100006: pSphere2
-    100008: pSphere3
-    100010: transform1
-    100012: transform2
-    100014: transform3
-    100016: transform4
-    100018: //RootNode
-    400000: pCube1
-    400002: pCylinder1
-    400004: pSphere1
-    400006: pSphere2
-    400008: pSphere3
-    400010: transform1
-    400012: transform2
-    400014: transform3
-    400016: transform4
-    400018: //RootNode
-    2100000: lambert1
-    2300000: pSphere3
-    2300002: //RootNode
-    3300000: pSphere3
-    3300002: //RootNode
-    4300000: pSphere3
-    6400000: pSphere3
-    6400002: //RootNode
-    2186277476908879412: ImportLogs
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: pCube1
+  - first:
+      1: 100002
+    second: pCylinder1
+  - first:
+      1: 100004
+    second: pSphere1
+  - first:
+      1: 100006
+    second: pSphere2
+  - first:
+      1: 100008
+    second: pSphere3
+  - first:
+      1: 100010
+    second: transform1
+  - first:
+      1: 100012
+    second: transform2
+  - first:
+      1: 100014
+    second: transform3
+  - first:
+      1: 100016
+    second: transform4
+  - first:
+      1: 100018
+    second: //RootNode
+  - first:
+      4: 400000
+    second: pCube1
+  - first:
+      4: 400002
+    second: pCylinder1
+  - first:
+      4: 400004
+    second: pSphere1
+  - first:
+      4: 400006
+    second: pSphere2
+  - first:
+      4: 400008
+    second: pSphere3
+  - first:
+      4: 400010
+    second: transform1
+  - first:
+      4: 400012
+    second: transform2
+  - first:
+      4: 400014
+    second: transform3
+  - first:
+      4: 400016
+    second: transform4
+  - first:
+      4: 400018
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: lambert1
+  - first:
+      23: 2300000
+    second: pSphere3
+  - first:
+      23: 2300002
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: pSphere3
+  - first:
+      33: 3300002
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: pSphere3
+  - first:
+      64: 6400000
+    second: pSphere3
+  - first:
+      64: 6400002
+    second: //RootNode
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -66,17 +124,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -88,10 +152,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -101,14 +168,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
